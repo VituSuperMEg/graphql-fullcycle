@@ -1,0 +1,6 @@
+## Códigos para rodar
+
+```
+github.com/99designs/gqlgen generate
+```
+Para gerar um novo resolver com a model

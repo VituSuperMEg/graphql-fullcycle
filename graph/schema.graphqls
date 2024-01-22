@@ -6,6 +6,7 @@ type Category {
 }
 type Course {
   id : ID!
+  name : String!
   description : String
   category : Category!
 }
@@ -22,7 +23,7 @@ type Query {
   categories : [Category!]!
   courses : [Course!]!
 }
-typee Mutation {
+type Mutation {
   createCategory(input : NewCategory!) : Category!
   createCourse(input : NewCourse!) : Course!
 }
